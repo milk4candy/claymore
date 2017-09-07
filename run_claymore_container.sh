@@ -2,7 +2,7 @@
 
 docker container prune -f
 
-nvidia-docker run -d --name claymore \
+nvidia-docker run -td --name claymore \
 --env GPU_FORCE_64BIT_PTR=0 \
 --env GPU_MAX_HEAP_SIZE=100 \
 --env GPU_USE_SYNC_OBJECTS=1 \
