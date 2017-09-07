@@ -1,0 +1,2 @@
+use "xrandr -q" to list names of availble monitors
+use "xrandr --output <monitor name> --primary" to set primary monitor
