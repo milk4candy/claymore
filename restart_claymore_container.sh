@@ -10,5 +10,5 @@ nvidia-docker run -td --name claymore \
 --env GPU_MAX_ALLOC_PERCENT=100 \
 --env GPU_SINGLE_ALLOC_PERCENT=100 \
 milk4candy/claymore9.8:17.8.0 \
-0xca3e29a0e10d21e530e060394c7490e6c4d14718/${HOSTNAME}/milk4candy@gmail.com
-#0x2b9EdbAE143d22f2AF6bcED530fFf2d9eCd78FF3/${HOSTNAME}/milk4candy@gmail.com
+0x2b9EdbAE143d22f2AF6bcED530fFf2d9eCd78FF3/${HOSTNAME}/milk4candy@gmail.com
+#0xca3e29a0e10d21e530e060394c7490e6c4d14718/${HOSTNAME}/milk4candy@gmail.com
