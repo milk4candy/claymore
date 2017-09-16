@@ -1,3 +1,3 @@
 #! /bin/bash
 
-echo $PWD/restart_claymore_container.sh >> /etc/rc.local
+echo $PWD/restart_ethlbc_container.sh >> /etc/rc.local
