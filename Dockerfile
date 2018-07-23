@@ -1,9 +1,6 @@
-FROM nvidia/cuda:8.0-runtime-ubuntu16.04
+FROM milk4candy/claymore10.0:17.9.0
 
-RUN apt-get update
-RUN apt-get install -y ocl-icd-opencl-dev
-RUN apt-get install -y libcurl3
-COPY ["ClaymoreV10.0", "/opt/ClaymoreV10.0"]
+COPY ["ClaymoreV11.8", "/opt/ClaymoreV11.8"]
 
-WORKDIR /opt/ClaymoreV10.0
+WORKDIR /opt/ClaymoreV11.8
 CMD ["bash"]
